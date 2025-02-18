@@ -1,0 +1,37 @@
+# 環境変数
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 依存関係
+node_modules/
+dist/
+build/
+
+# IDE/エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# その他
+.DS_Store
+*.log
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# キャッシュ
+.cache/
+.temp/
+.tmp/
+
+# テスト
+coverage/
+
+# TypeScript
+*.tsbuildinfo
